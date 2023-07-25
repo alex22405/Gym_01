@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GYM</title>
+    <link rel="stylesheet" href="assets/css/normalizer.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+
+    <!-- Navigation -->
+
+
+    <nav>
+        <div class="logo">
+            <a href=""><img class="logo_img" src="assets/img/Dynamo_gym.svg" alt=""></a>
+        </div>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+            <ul class="navigation">
+                <li><a href="" class="items-navigation">Accueil</a></li>
+                <li><a href="#equipement" class="items-navigation">Matériel</a></li>
+                <li><a href="#tarifs" class="items-navigation">Tarifs</a></li>
+                <li><a href="#contact" class="items-navigation">Contact</a></li>
+                <li><a href="" class="items-navigation inscription">Inscription</a></li>
+            </ul>
+    </nav>
+
+    <!-- Accueil -->
+
+    <div class="accueil" id="home">
+      <div class="bloc-gauche-accueil">
+        <h1 class="bloc-gauche-accueil_title">Fitness dès</h1>
+        <h1 class="bloc-gauche-accueil_price">9,99€ <span>/4 semaines</span></h1>
+        <div class="cont-btn-home">
+          <span class="btn-accueil b1">S'inscrire</span> 
+        </div>
+        </div>
+      <div class="bloc-droit-accueil"></div>
+    </div>
+
+
+    <!-- Section 1 Infos -->
+
+    <h2 class="titre-section-info">ÉVEILLEZ VOTRE POTENTIEL</h2>
+    
+    <section class="section-info" id="infos">
+
+        <div class="carte-info">
+            <div class="container-photo-info">
+                <img src="assets/img/coach.jpg" alt="coach">
+            </div>
+            <h2>Programmes personnalisés</h2>
+            <p>
+                Découvrez des programmes d'entraînement sur mesure adaptés à vos objectifs et besoins spécifiques. Nos entraîneurs expérimentés vous aideront à créer un plan d'entraînement personnalisé pour maximiser vos résultats.
+            </p>
+        </div>
+
+        <div class="carte-info">
+            <div class="container-photo-info">
+                <img src="assets/img/food.jpg" alt="plat healthy">
+            </div>
+            <h2>Nutrition équilibrée</h2>
+            <p>
+                Apprenez l'importance d'une alimentation saine et équilibrée pour atteindre vos objectifs de remise en forme. Nous vous proposons des conseils nutritionnels et des plans alimentaires conçus pour soutenir vos séances d'entraînement et améliorer votre bien-être global.
+            </p>
+        </div>
+
+        <div class="carte-info">
+            <div class="container-photo-info">
+                <img src="assets/img/mentality.jpg" alt="femme haltérophilie">
+            </div>
+            <h2>Mentalité gagnante</h2>
+            <p>
+                Découvrez comment développer une mentalité positive et déterminée pour surmonter les obstacles, rester motivé et atteindre votre plein potentiel. 
+            </p>
+        </div>
+
+    </section>
+
+
+    <!-- Section 2 choix -->
+
+    <section id="choix">
+
+        <div class="entrainement-choix">
+            <h3>Offres spéciales</h3>
+            <p>
+                Profitez d'un essai exclusif de 2 semaines pour explorer tous nos salles d'entraînement. Commencez votre voyage vers une meilleure forme physique dès aujourd'hui !
+            </p>
+            <button class="btn-outline-choix" type="button">Voir</button>
+        </div>
+        <div class="entrainement-choix">
+            <h3>Évènements</h3>
+            <p>
+                Restez à l'affût de notre prochain événement spécial où nous vous réservons des surprises, des challenges et des moments de convivialité.
+            </p>
+            <button class="btn-outline-choix" type="button">Voir</button>
+        </div>
+
+    </section>
+
+    <!-- Section équipement -->
+
+    <h2 class="titre-equipements">Les équipements</h2>
+
+    <section id="equipement">
+
+        <button type="button" data-index="1" class="btn-modale"></button>
+        <button type="button" data-index="2" class="btn-modale"></button>
+        <button type="button" data-index="3" class="btn-modale"></button>
+        <button type="button" data-index="4" class="btn-modale"></button>
+        <button type="button" data-index="5" class="btn-modale"></button>
+        <button type="button" data-index="6" class="btn-modale"></button>
+       
+
+    </section>
+
+    <div class="bloc-modale">
+        <div class="bloc-img">
+            <img src="assets/img/img9-equip.jpg" alt="matériel de la salle de sport">
+            <button class="fermeture-modale">X</button>
+        </div>
+    </div>
+
+    <!-- Section Parallax -->
+
+    <section class="parallax">
+        <p class="parallax-txt">SURPASSEZ VOUS!</p>
+    </section>
+
+
+    <!-- Section Tarifs -->
+
+    <h2 class="titre-tarifs">TARIFS</h2>
+
+    <section id="tarifs">
+
+        <div class="carte-tarif">
+            <h3>BASIQUE</h3>
+            <p class="prix-carte"><span>9</span>/mois</p>
+            <p class="infos-carte">
+                <img 
+                src="assets/img/check.svg" 
+                alt="emoji check vert"
+                class="img-info-carte">
+                Salle Libre
+            </p>
+            <p class="infos-carte">
+                <img 
+                src="assets/img/check.svg" 
+                alt="emoji check vert"
+                class="img-info-carte">
+                24h/24
+            </p>
+            <p class="infos-carte">
+                <img 
+                src="assets/img/cross.svg" 
+                alt="emoji croix rouge"
+                class="img-info-carte">
+                Coach
+            </p>
+            <p class="infos-carte">
+                <img 
+                src="assets/img/cross.svg" 
+                alt="emoji croix rouge"
+                class="img-info-carte">
+                CrossFit
+            </p>
+            <p class="infos-carte">
+                <img 
+                src="assets/img/cross.svg" 
+                alt="emoji croix rouge"
+                class="img-info-carte">
+                Massage
+            </p>
+        </div>
+
+        
+        <div class="carte-tarif">
+            <h3>COMPLET</h3>
+            <p class="prix-carte"><span>19</span>/mois</p>
+            <p class="infos-carte">
+                <img 
+                src="assets/img/check.svg" 
+                alt="emoji check vert"
+                class="img-info-carte">
+                Salle Libre
+            </p>
+            <p class="infos-carte">
+                <img 
+                src="assets/img/check.svg" 
+                alt="emoji check vert"
+                class="img-info-carte">
+                24h/24
+            </p>
+            <p class="infos-carte">
+                <img 
+                src="assets/img/check.svg" 
+                alt="emoji check vert"
+                class="img-info-carte">
+                Coach
+            </p>
+            <p class="infos-carte">
+                <img 
+                src="assets/img/check.svg" 
+                alt="emoji check vert"
+                class="img-info-carte">
+                CrossFit
+            </p>
+            <p class="infos-carte">
+                <img 
+                src="assets/img/cross.svg" 
+                alt="emoji croix rouge"
+                class="img-info-carte">
+                Massage
+            </p>
+        </div>
+
+       
+        <div class="carte-tarif">
+            <h3>PRO</h3>
+            <p class="prix-carte"><span>29</span>/mois</p>
+            <p class="infos-carte">
+                <img 
+                src="assets/img/check.svg" 
+                alt="emoji check vert"
+                class="img-info-carte">
+                Salle Libre
+            </p>
+            <p class="infos-carte">
+                <img 
+                src="assets/img/check.svg" 
+                alt="emoji check vert"
+                class="img-info-carte">
+                24h/24
+            </p>
+            <p class="infos-carte">
+                <img 
+                src="assets/img/check.svg" 
+                alt="emoji check vert"
+                class="img-info-carte">
+                Coach
+            </p>
+            <p class="infos-carte">
+                <img 
+                src="assets/img/check.svg" 
+                alt="emoji check vert"
+                class="img-info-carte">
+                CrossFit
+            </p>
+            <p class="infos-carte">
+                <img 
+                src="assets/img/check.svg" 
+                alt="emoji check vert"
+                class="img-info-carte">
+                Massage
+            </p>
+        </div>
+        
+    </section>
+
+    <!-- Section Contact -->
+
+    <h2 class="titre-contact">Contact</h2>
+
+    <section id="contact">
+
+        <form>
+
+            <label for="prenom">PRENOM</label>
+            <input type="text" id="prenom">
+
+            <label for="nom">NOM</label>
+            <input type="text" id="nom">
+
+            <label for="txt-area">MESSAGE</label>
+            <textarea  id="txt-area"></textarea>
+
+            <button class="form-btn" type="submit">Envoyer</button>
+        </form>
+
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© Développé par <a href="https://portfolio-alex22405.vercel.app/" target="_blank" class="developed_by">Vigon Alexandre</a></p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
