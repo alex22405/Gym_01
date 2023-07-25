@@ -5,7 +5,7 @@ const imgIndex = document.querySelector('.bloc-modale img');
 btns.forEach(btn => {
     btn.addEventListener('click', (e) => {
 
-        imgIndex.src = `ressources/img${e.target.getAttribute('data-index')}-equip.jpg`;
+        imgIndex.src = `assets/img/img${e.target.getAttribute('data-index')}-equip.jpg`;
         modaleEquipement.classList.add('active-modale');
 
     })

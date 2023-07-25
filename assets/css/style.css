@@ -40,6 +40,12 @@ p
     font-family: 'Hanken_Grotesk';
 }
 
+#particles-js
+{
+    height: 10vh;
+    background: red;
+}
+
 /* --------------- Navigation --------------- */
 nav {
     display: flex;
@@ -598,7 +604,7 @@ h1
 
 .carte-tarif {
     width: 350px;
-    height: auto;
+    height: 500px;
     background-image: repeating-linear-gradient(22.5deg, rgba(255,255,255,0.05) 0px, rgba(255,255,255,0.05) 1px,transparent 1px, transparent 31px,rgba(255,255,255,0.05) 31px, rgba(255,255,255,0.05) 32px,transparent 32px, transparent 92px),repeating-linear-gradient(112.5deg, rgba(255,255,255,0.05) 0px, rgba(255,255,255,0.05) 1px,transparent 1px, transparent 31px,rgba(255,255,255,0.05) 31px, rgba(255,255,255,0.05) 32px,transparent 32px, transparent 92px),repeating-linear-gradient(0deg, rgba(255,255,255,0.05) 0px, rgba(255,255,255,0.05) 1px,transparent 1px, transparent 31px,rgba(255,255,255,0.05) 31px, rgba(255,255,255,0.05) 32px,transparent 32px, transparent 92px),linear-gradient(90deg, hsl(279,0%,3%),hsl(279,0%,3%));
     color: #f1f1f1;
     margin: 20px 10px;
@@ -648,6 +654,7 @@ h1
     width: 20px;
 }
 
+
 /*------------ Section formulaire ------------*/
 
 .titre-contact {
@@ -668,6 +675,7 @@ form {
     flex-direction: column;
     padding-bottom: 100px;
     position: relative;
+    font-family: 'Hanken_Grotesk';
 }
 
 label, input {
